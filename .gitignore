@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Rust
+rust_ehs/target/
+
+# Data
+data/
+*.pt
+*.pth
+*.pkl
+checkpoints/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.log
+

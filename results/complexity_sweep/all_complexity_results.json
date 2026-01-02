@@ -1,0 +1,184 @@
+{
+  "C4": {
+    "complexity": "C4",
+    "config": {
+      "num_ranks": 6,
+      "num_suits": 2,
+      "max_raises": 2
+    },
+    "num_infosets": 1116,
+    "game_name": "leduc_6r2s2x2rd",
+    "input_dim": 51,
+    "d_results": [
+      {
+        "D": 279,
+        "coverage": 0.25,
+        "loss_mean": 0.00312551095460852,
+        "loss_std": 0.00022843061421130408
+      },
+      {
+        "D": 558,
+        "coverage": 0.5,
+        "loss_mean": 0.0021682626102119684,
+        "loss_std": 0.00011091846838966226
+      },
+      {
+        "D": 837,
+        "coverage": 0.75,
+        "loss_mean": 0.0011377967117975156,
+        "loss_std": 0.00020713614972684043
+      },
+      {
+        "D": 1116,
+        "coverage": 1.0,
+        "loss_mean": 0.00023162639020786932,
+        "loss_std": 0.00012289106211806075
+      }
+    ]
+  },
+  "C5": {
+    "complexity": "C5",
+    "config": {
+      "num_ranks": 6,
+      "num_suits": 3,
+      "max_raises": 2
+    },
+    "num_infosets": 1116,
+    "game_name": "leduc_6r3s2x2rd",
+    "input_dim": 51,
+    "d_results": [
+      {
+        "D": 279,
+        "coverage": 0.25,
+        "loss_mean": 0.00298616251287361,
+        "loss_std": 0.00010702479721516321
+      },
+      {
+        "D": 558,
+        "coverage": 0.5,
+        "loss_mean": 0.0017322769078115623,
+        "loss_std": 0.00013474876147090921
+      },
+      {
+        "D": 837,
+        "coverage": 0.75,
+        "loss_mean": 0.0011394124982568126,
+        "loss_std": 0.00014114674671709745
+      },
+      {
+        "D": 1116,
+        "coverage": 1.0,
+        "loss_mean": 0.0002092527890151056,
+        "loss_std": 0.00010160056744065726
+      }
+    ]
+  },
+  "C1": {
+    "complexity": "C1",
+    "config": {
+      "num_ranks": 3,
+      "num_suits": 2,
+      "max_raises": 2
+    },
+    "num_infosets": 288,
+    "input_dim": 45,
+    "d_results": [
+      {
+        "D": 72,
+        "coverage": 0.25,
+        "loss_mean": 0.04582617928584417,
+        "loss_std": 0.002087332975105318
+      },
+      {
+        "D": 144,
+        "coverage": 0.5,
+        "loss_mean": 0.026852566748857498,
+        "loss_std": 0.0017343308349174573
+      },
+      {
+        "D": 216,
+        "coverage": 0.75,
+        "loss_mean": 0.01316754954556624,
+        "loss_std": 0.0025106140112325145
+      },
+      {
+        "D": 288,
+        "coverage": 1.0,
+        "loss_mean": 7.250293371422838e-05,
+        "loss_std": 1.7216636459452242e-05
+      }
+    ]
+  },
+  "C2": {
+    "complexity": "C2",
+    "config": {
+      "num_ranks": 4,
+      "num_suits": 2,
+      "max_raises": 2
+    },
+    "num_infosets": 504,
+    "input_dim": 47,
+    "d_results": [
+      {
+        "D": 126,
+        "coverage": 0.25,
+        "loss_mean": 0.012185302252570787,
+        "loss_std": 0.0002899599233680083
+      },
+      {
+        "D": 252,
+        "coverage": 0.5,
+        "loss_mean": 0.008455614869793257,
+        "loss_std": 0.0004866974026793536
+      },
+      {
+        "D": 378,
+        "coverage": 0.75,
+        "loss_mean": 0.0038656701799482107,
+        "loss_std": 0.0008795747381832093
+      },
+      {
+        "D": 504,
+        "coverage": 1.0,
+        "loss_mean": 0.0001466081739636138,
+        "loss_std": 8.86536070524565e-05
+      }
+    ]
+  },
+  "C3": {
+    "complexity": "C3",
+    "config": {
+      "num_ranks": 5,
+      "num_suits": 2,
+      "max_raises": 2
+    },
+    "num_infosets": 780,
+    "input_dim": 49,
+    "d_results": [
+      {
+        "D": 195,
+        "coverage": 0.25,
+        "loss_mean": 0.00525900333498915,
+        "loss_std": 0.00014605242063259245
+      },
+      {
+        "D": 390,
+        "coverage": 0.5,
+        "loss_mean": 0.0030269542088111243,
+        "loss_std": 0.0005386755498036341
+      },
+      {
+        "D": 585,
+        "coverage": 0.75,
+        "loss_mean": 0.0013096499994086723,
+        "loss_std": 0.0005804918322778358
+      },
+      {
+        "D": 780,
+        "coverage": 1.0,
+        "loss_mean": 9.17328482804199e-05,
+        "loss_std": 2.476586376708485e-05
+      }
+    ]
+  }
+}

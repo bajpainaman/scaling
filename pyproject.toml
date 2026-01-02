@@ -1,0 +1,50 @@
+[project]
+name = "sigma-go"
+version = "0.1.0"
+description = "Scaling laws for equilibrium reasoning in imperfect-information games"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Naman" }
+]
+dependencies = [
+    "numpy>=1.24",
+    "torch>=2.0",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "pandas>=2.0",
+    "tqdm>=4.65",
+    "pyyaml>=6.0",
+    "pytest>=7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+    "black>=23.0",
+    "ruff>=0.0.270",
+]
+tracking = [
+    "wandb>=0.15",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

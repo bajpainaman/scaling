@@ -1,0 +1,76 @@
+{
+  "C4": {
+    "complexity": "C4",
+    "config": {
+      "num_ranks": 6,
+      "num_suits": 2,
+      "max_raises": 2
+    },
+    "num_infosets": 1116,
+    "game_name": "leduc_6r2s2x2rd",
+    "input_dim": 51,
+    "d_results": [
+      {
+        "D": 279,
+        "coverage": 0.25,
+        "loss_mean": 0.00312551095460852,
+        "loss_std": 0.00022843061421130408
+      },
+      {
+        "D": 558,
+        "coverage": 0.5,
+        "loss_mean": 0.0021682626102119684,
+        "loss_std": 0.00011091846838966226
+      },
+      {
+        "D": 837,
+        "coverage": 0.75,
+        "loss_mean": 0.0011377967117975156,
+        "loss_std": 0.00020713614972684043
+      },
+      {
+        "D": 1116,
+        "coverage": 1.0,
+        "loss_mean": 0.00023162639020786932,
+        "loss_std": 0.00012289106211806075
+      }
+    ]
+  },
+  "C5": {
+    "complexity": "C5",
+    "config": {
+      "num_ranks": 6,
+      "num_suits": 3,
+      "max_raises": 2
+    },
+    "num_infosets": 1116,
+    "game_name": "leduc_6r3s2x2rd",
+    "input_dim": 51,
+    "d_results": [
+      {
+        "D": 279,
+        "coverage": 0.25,
+        "loss_mean": 0.00298616251287361,
+        "loss_std": 0.00010702479721516321
+      },
+      {
+        "D": 558,
+        "coverage": 0.5,
+        "loss_mean": 0.0017322769078115623,
+        "loss_std": 0.00013474876147090921
+      },
+      {
+        "D": 837,
+        "coverage": 0.75,
+        "loss_mean": 0.0011394124982568126,
+        "loss_std": 0.00014114674671709745
+      },
+      {
+        "D": 1116,
+        "coverage": 1.0,
+        "loss_mean": 0.0002092527890151056,
+        "loss_std": 0.00010160056744065726
+      }
+    ]
+  }
+}

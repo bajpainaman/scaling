@@ -1,0 +1,281 @@
+{
+  "config": {
+    "game": "leduc",
+    "model_size": "m",
+    "cfr_iterations": 1000,
+    "dataset_sizes": [
+      100,
+      250,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "epochs": 200,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 30,
+    "output_dir": "results/scaling_D"
+  },
+  "size_results": {
+    "100": {
+      "dataset_size": 100,
+      "loss_mean": 0.03584827793141206,
+      "loss_std": 0.003666458770447007,
+      "loss_min": 0.030851619318127632,
+      "loss_max": 0.03954637050628662,
+      "runs": 3
+    },
+    "250": {
+      "dataset_size": 250,
+      "loss_mean": 0.021249627073605854,
+      "loss_std": 0.011238950318395804,
+      "loss_min": 0.0130907092243433,
+      "loss_max": 0.03714200481772423,
+      "runs": 3
+    },
+    "500": {
+      "dataset_size": 500,
+      "loss_mean": 0.017574794124811888,
+      "loss_std": 0.009252512865658381,
+      "loss_min": 0.010443189647048712,
+      "loss_max": 0.030641578137874603,
+      "runs": 3
+    },
+    "1000": {
+      "dataset_size": 1000,
+      "loss_mean": 0.003983774649289747,
+      "loss_std": 0.001247957986361103,
+      "loss_min": 0.002229624631581828,
+      "loss_max": 0.005029126186855137,
+      "runs": 3
+    },
+    "2000": {
+      "dataset_size": 2000,
+      "loss_mean": 0.0024831322371028364,
+      "loss_std": 0.0005030627006939001,
+      "loss_min": 0.0017938556016555854,
+      "loss_max": 0.0029803530279813068,
+      "runs": 3
+    },
+    "5000": {
+      "dataset_size": 5000,
+      "loss_mean": 0.0015046949595974486,
+      "loss_std": 0.0009198711054590545,
+      "loss_min": 0.00048427231831738027,
+      "loss_max": 0.0027136891512782313,
+      "runs": 3
+    }
+  },
+  "all_results": [
+    {
+      "model_size": "m",
+      "dataset_size": 100,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 0.00041475910984445363,
+      "val_loss": 0.009796349331736565,
+      "test_loss": 0.03954637050628662,
+      "epochs_trained": 37,
+      "training_time": 0.1093449592590332
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 100,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 0.0006642236936992655,
+      "val_loss": 0.02615875005722046,
+      "test_loss": 0.03714684396982193,
+      "epochs_trained": 31,
+      "training_time": 0.0794229507446289
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 100,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 0.0004893530276603997,
+      "val_loss": 0.06640152633190155,
+      "test_loss": 0.030851619318127632,
+      "epochs_trained": 31,
+      "training_time": 0.0820469856262207
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 250,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 0.0015758109012884752,
+      "val_loss": 0.021442774683237076,
+      "test_loss": 0.0130907092243433,
+      "epochs_trained": 32,
+      "training_time": 0.185028076171875
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 250,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 0.0006694838479493878,
+      "val_loss": 0.02921348623931408,
+      "test_loss": 0.013516167178750038,
+      "epochs_trained": 49,
+      "training_time": 0.2805039882659912
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 250,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 0.0014778053861976201,
+      "val_loss": 0.01658955030143261,
+      "test_loss": 0.03714200481772423,
+      "epochs_trained": 39,
+      "training_time": 0.25710010528564453
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 500,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 0.0003029036093861438,
+      "val_loss": 0.0088920125272125,
+      "test_loss": 0.030641578137874603,
+      "epochs_trained": 33,
+      "training_time": 0.35253000259399414
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 500,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 3.194013970642118e-05,
+      "val_loss": 0.014628768840339035,
+      "test_loss": 0.011639614589512348,
+      "epochs_trained": 104,
+      "training_time": 1.1102840900421143
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 500,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 0.00017719586741385193,
+      "val_loss": 0.008798224851489067,
+      "test_loss": 0.010443189647048712,
+      "epochs_trained": 61,
+      "training_time": 0.6714951992034912
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 1000,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 1.8340205497224815e-05,
+      "val_loss": 7.74288077991514e-05,
+      "test_loss": 0.004692573129432276,
+      "epochs_trained": 200,
+      "training_time": 4.168297290802002
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 1000,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 4.586069750075694e-05,
+      "val_loss": 0.003003575509865186,
+      "test_loss": 0.005029126186855137,
+      "epochs_trained": 90,
+      "training_time": 1.843790054321289
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 1000,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 5.0687660186667925e-05,
+      "val_loss": 4.111033240405959e-05,
+      "test_loss": 0.002229624631581828,
+      "epochs_trained": 100,
+      "training_time": 2.1695780754089355
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 2000,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 4.6241308300523084e-05,
+      "val_loss": 4.493425110142978e-05,
+      "test_loss": 0.0029803530279813068,
+      "epochs_trained": 107,
+      "training_time": 4.239982843399048
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 2000,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 4.1947226109186885e-05,
+      "val_loss": 3.299152064885545e-05,
+      "test_loss": 0.0017938556016555854,
+      "epochs_trained": 126,
+      "training_time": 5.053475618362427
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 2000,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 7.616510507432394e-05,
+      "val_loss": 4.775979375283766e-05,
+      "test_loss": 0.0026751880816716167,
+      "epochs_trained": 100,
+      "training_time": 3.9547359943389893
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 5000,
+      "seed": 42,
+      "params": 49795,
+      "train_loss": 1.8931172075099313e-05,
+      "val_loss": 1.5085812719917158e-05,
+      "test_loss": 0.00048427231831738027,
+      "epochs_trained": 200,
+      "training_time": 19.94009232521057
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 5000,
+      "seed": 123,
+      "params": 49795,
+      "train_loss": 0.0004365922903816681,
+      "val_loss": 7.735188432889117e-05,
+      "test_loss": 0.0027136891512782313,
+      "epochs_trained": 49,
+      "training_time": 4.871587038040161
+    },
+    {
+      "model_size": "m",
+      "dataset_size": 5000,
+      "seed": 456,
+      "params": 49795,
+      "train_loss": 5.548125967106898e-05,
+      "val_loss": 5.6010365938163886e-05,
+      "test_loss": 0.0013161234091967344,
+      "epochs_trained": 89,
+      "training_time": 8.771657943725586
+    }
+  ],
+  "total_time": 455.6193280220032,
+  "metadata": {
+    "game": "leduc",
+    "model_size": "m",
+    "model_params": 49795
+  }
+}
